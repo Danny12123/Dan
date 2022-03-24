@@ -2,59 +2,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-h1 {
-    color: green;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
+    color: #2A8C82
+    #41BFB3
+    #9BF2EA
+    #275950
+    #260101
+    ;
 }
 
-.container {
-    background: #ccc;
-    height: 95vh;
-    text-align: center;
-    padding: 20px 0;
-    width: 35%;
-    border-radius: 10px;
-}
-#answer  {
-    text-align: start;
-}
-#answer span {
-    margin: 0px 0 0 20px;
-    font-size: 30px;
-    font-weight: 800;
-    color: rgba(4, 0, 255, 0.885);
-    font-family: Arial, Helvetica, sans-serif;
-}
-#answer p {
-   margin-left: 280px;
-    font-size: 40px;
-    font-weight: 800;
-    color: green;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#answer {
-    width: 88%;
-    height: 15vh;
-    background-color: #fff;
-    margin: 10px 20px;
-    border-radius: 5px;
-}
-.col-sm-3 {
-    background: #000;
-    margin: 10px 0 0 25px;
-    padding: 15px;
-    color: #fff;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#col-equ {
-    width: 86%;
+body {
     
+    padding: 25px;
 }
+.container .col-box-1 ul {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.container .col-box-1 ul li {
+    display: flex;
+    margin: 10px;
+    list-style: none;
+}
+.container .col-box-1 ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2A8C82;
+}
+.home {
+    border-bottom: #000 3px solid;
+}
+.container .col-lg-6 .logo {
+    display: flex;
+}
+.container .col-lg-6 .logo h3{
+    margin-top: 25px;
+    font-size: 15px;
+}
+.container .col-lg-6 .logo img {
+    width: 5%;
+}
+.container .col-lg-6 .heading {
+    margin-top: 40px;
+}
+.container .col-lg-6 .heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.container .col-lg-6 .heading p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 35px;
+}
+
+.container .col-box-2 img {
+    width: 80%;
+    height: 90vh;
+    border-radius: 5px;
+    margin-left: 95px;
+}
+.fa {
+    color: #41BFB3;
+    margin-right: 7px;
+} 
+.container .col-lg-6 .event-1 {
+    display: flex;
+    margin-top: 25px;
+}
+.container .col-lg-6 .event-1 img{
+    width: 30%;
+    height: 40vh;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35); 
+}
+.container .col-lg-6 .date-event {
+    margin-left: 25px;
+    margin-top: 40px;
+}
+
+#audio {
+    margin-top: 50px;
+}
+#audio .container {
+    margin-top: 50px;
+}
+#audio .container .box-audio .main-box-aubio audio{
+    background-color: #260101;
+    padding: 10px;
+    width: 50%;
+    color: #260101;
+}
+
+
