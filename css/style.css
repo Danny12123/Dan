@@ -60,7 +60,7 @@ body {
 }
 
 .container .col-box-2 img {
-    width: 80%;
+    width: 100%;
     height: 90vh;
     border-radius: 5px;
     margin-left: 95px;
@@ -96,5 +96,35 @@ body {
     width: 50%;
     color: #260101;
 }
-
-
+.banner {
+    text-align: center;
+    margin-top: 30px;
+}
+.banner h2  {
+    color: #2A8C82;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner input {
+    padding: 10px;
+    border: none;
+    border-bottom: #275950 3px solid;
+    width: 35%;
+}
+.btn-bl {
+    background-color: #275950;
+    color: #fff;
+}
+.footer-box {
+    display: flex;
+}
+.footer-box .fa{
+    color: #fff;
+}
+footer {
+    text-align: center;
+    background-color: #275950;
+    color: #fff;
+    padding: 40px;
+}
